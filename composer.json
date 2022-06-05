@@ -1,0 +1,21 @@
+{
+    "name": "jefri/tugasweb",
+    "description": "Ini Adalah Tugas Kuliah Web Tahun 2022",
+    "type": "project",
+    "license": "GPL",
+    "autoload": {
+        "psr-4": {
+            "Jefri\\Tugasweb\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jefri",
+            "email": "flyliner154@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "nesbot/carbon": "^2.58"
+    }
+}
