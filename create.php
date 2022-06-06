@@ -15,7 +15,7 @@ if ($_POST){
     $stmt->execute();
 
     //Beri Response
-    $response['message'] = "Insert Berhasil";
+    $response['message'] = "Berhasil Menambahkan";
     $response['data'] = [
         'isbn' => $isbn,
         'judul' => $judul,

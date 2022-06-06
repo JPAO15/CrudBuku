@@ -10,7 +10,7 @@ if ($_POST){
     $stmt->execute();
 
     //Beri Response
-    $response['message'] = "Berhasil di Hapus";
+    $response['message'] = "Berhasil Menghapus";
 
     //Menjadikan data dalam bentuk JSON
     $json = json_encode($response, JSON_PRETTY_PRINT);
@@ -19,7 +19,7 @@ if ($_POST){
     echo $json;
 
 } else {
-    $response['message'] = "Gagal menghapus data";
+    $response['message'] = "Tidak Dapat Menghapus data";
     //Menjadikan data dalam bentuk JSON
     $json = json_encode($response, JSON_PRETTY_PRINT);
 

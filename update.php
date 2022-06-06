@@ -15,7 +15,7 @@ if ($_POST){
     $stmt->execute();
 
     //Beri Response
-    $response['message'] = "Update Berhasil";
+    $response['message'] = "Berhasil Diperbaharui";
     $response['data'] = [
         
         'judul' => $judul,
@@ -33,7 +33,7 @@ if ($_POST){
     echo $json;
 
 } else {
-    $response['message'] = "Update Gagal";
+    $response['message'] = "Gagal Memperbaharui";
     //Jadikan data dalam bentuk JSON
     $json = json_encode($response, JSON_PRETTY_PRINT);
 
